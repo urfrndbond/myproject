@@ -1,7 +1,7 @@
 pipeline{
   agent any
   environment{
-	imagename = "ajaynegi/php-project"
+	imagename = "letmebeurdocker/php-project"
 	dockerImage = ''
   }
 	  stages{
